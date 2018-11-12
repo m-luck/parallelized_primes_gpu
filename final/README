@@ -1,0 +1,5 @@
+genprimes is the streamed version. (Originally named CUDAStreams.cu)
+CUDAprimes is the faster interleaved version.
+CUDAprimesThreadPerNumber is the sequentially bottlenecked parallel version. 
+
+All these point to pros and cons which can further be considered. 

@@ -1,0 +1,31 @@
+==133676== NVPROF is profiling process 133676, command: ./Xcuda 100000
+==133676== Profiling application: ./Xcuda 100000
+==133676== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 99.70%  12.870ms      5129  2.5090us  2.0160us  8.8320us  shoot(unsigned int, unsigned int, unsigned int*)
+  0.27%  34.720us         1  34.720us  34.720us  34.720us  [CUDA memcpy DtoH]
+  0.02%  2.8800us         1  2.8800us  2.8800us  2.8800us  generate(unsigned int, unsigned int*)
+  0.01%     800ns         1     800ns     800ns     800ns  [CUDA memset]
+
+==133676== Unified Memory profiling result:
+Device "GeForce GTX TITAN X (0)"
+   Count  Avg Size  Min Size  Max Size  Total Size  Total Time  Name
+   14634  22.448KB  4.0000KB  60.000KB  320.8125MB  38.23274ms  Device To Host
+Total CPU Page faults: 5133
+
+==133676== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 88.12%  4.60348s      5130  897.36us  7.2490us  2.7788ms  cudaDeviceSynchronize
+  5.98%  312.61ms      5130  60.937us  51.539us  675.09us  cudaLaunch
+  5.60%  292.37ms         1  292.37ms  292.37ms  292.37ms  cudaMallocManaged
+  0.11%  5.5490ms     15389     360ns     142ns  1.1701ms  cudaSetupArgument
+  0.06%  3.2839ms       364  9.0210us     250ns  381.69us  cuDeviceGetAttribute
+  0.06%  3.1448ms      5130     613ns     466ns  12.671us  cudaConfigureCall
+  0.04%  2.2226ms         1  2.2226ms  2.2226ms  2.2226ms  cudaMemset
+  0.01%  667.98us         4  166.99us  87.061us  228.65us  cuDeviceTotalMem
+  0.01%  431.37us         1  431.37us  431.37us  431.37us  cudaMemcpy
+  0.01%  296.38us         4  74.094us  67.503us  78.531us  cuDeviceGetName
+  0.00%  260.95us         1  260.95us  260.95us  260.95us  cudaFree
+  0.00%  7.5200us        12     626ns     253ns  2.8730us  cuDeviceGet
+  0.00%  2.8870us         3     962ns     426ns  2.0050us  cuDeviceGetCount
+======== Error: Application returned non-zero code 1

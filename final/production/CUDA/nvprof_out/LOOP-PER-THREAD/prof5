@@ -1,0 +1,25 @@
+==6024== NVPROF is profiling process 6024, command: ./X2cuda 100000
+==6024== Profiling application: ./X2cuda 100000
+==6024== Profiling result:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 50.75%  314.24ms         1  314.24ms  314.24ms  314.24ms  shootLoop(unsigned int, unsigned int*, unsigned int, unsigned int, unsigned int)
+ 49.25%  304.94ms         1  304.94ms  304.94ms  304.94ms  generate(unsigned int, unsigned int*)
+  0.01%  43.487us         1  43.487us  43.487us  43.487us  [CUDA memcpy DtoH]
+  0.00%  1.1840us         1  1.1840us  1.1840us  1.1840us  [CUDA memset]
+
+==6024== API calls:
+Time(%)      Time     Calls       Avg       Min       Max  Name
+ 94.99%  23.3776s         1  23.3776s  23.3776s  23.3776s  cudaMalloc
+  4.99%  1.22808s         2  614.04ms  609.00ms  619.08ms  cudaDeviceSynchronize
+  0.01%  3.1494ms       364  8.6520us     145ns  414.15us  cuDeviceGetAttribute
+  0.00%  455.41us         4  113.85us  101.69us  119.57us  cuDeviceTotalMem
+  0.00%  389.62us         1  389.62us  389.62us  389.62us  cudaMemcpy
+  0.00%  306.11us         1  306.11us  306.11us  306.11us  cudaFree
+  0.00%  248.03us         4  62.008us  59.452us  67.302us  cuDeviceGetName
+  0.00%  108.61us         2  54.306us  41.325us  67.288us  cudaLaunch
+  0.00%  67.713us         1  67.713us  67.713us  67.713us  cudaMemset
+  0.00%  6.4640us         7     923ns     163ns  4.1390us  cudaSetupArgument
+  0.00%  5.7940us        12     482ns     143ns  2.1390us  cuDeviceGet
+  0.00%  5.2490us         2  2.6240us  2.3200us  2.9290us  cudaConfigureCall
+  0.00%  2.7140us         3     904ns     224ns  1.9480us  cuDeviceGetCount
+======== Error: Application returned non-zero code 1

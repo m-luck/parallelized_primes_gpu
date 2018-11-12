@@ -1,0 +1,7 @@
+What do you have to submit:
+A single zip file. The file name is your lastname.firstname.zip
+Inside that zip file you need to have:
+ seqgenprimes.c [5 points]
+ genprimes.cu [35 points]
+ pdf file containing the graphs and explanation. [10 points]
+Submit the zip file through NYU classes

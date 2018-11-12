@@ -1,0 +1,100 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 89.74      0.08     0.08    78498     0.00     0.00  shoot
+ 11.22      0.09     0.01        1    10.10    90.86  shootLoop
+  0.00      0.09     0.00        1     0.00     0.00  generate
+
+ %         the percentage of the total running time of the
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00        5     0.00     0.00  shoot
+  0.00      0.00     0.00        1     0.00     0.00  generate
+  0.00      0.00     0.00        1     0.00     0.00  shootLoop
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00       26     0.00     0.00  shoot
+  0.00      0.00     0.00        1     0.00     0.00  generate
+  0.00      0.00     0.00        1     0.00     0.00  shootLoop
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00       95     0.00     0.00  shoot
+  0.00      0.00     0.00        1     0.00     0.00  generate
+  0.00      0.00     0.00        1     0.00     0.00  shootLoop
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00      367     0.00     0.00  shoot
+  0.00      0.00     0.00        1     0.00     0.00  generate
+  0.00      0.00     0.00        1     0.00     0.00  shootLoop
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00     1229     0.00     0.00  shoot
+  0.00      0.00     0.00        1     0.00     0.00  generate
+  0.00      0.00     0.00        1     0.00     0.00  shootLoop
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00     2762     0.00     0.00  shoot
+  0.00      0.00     0.00        1     0.00     0.00  generate
+  0.00      0.00     0.00        1     0.00     0.00  shootLoop
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00     5133     0.00     0.00  shoot
+  0.00      0.00     0.00        1     0.00     0.00  generate
+  0.00      0.00     0.00        1     0.00     0.00  shootLoop
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 80.77      0.04     0.04    41538     0.00     0.00  shoot
+ 20.19      0.05     0.01        1    10.10    50.48  shootLoop
+  0.00      0.05     0.00        1     0.00     0.00  generate
+
+ %         the percentage of the total running time of the
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 89.74      0.08     0.08    78498     0.00     0.00  shoot
+ 11.22      0.09     0.01        1    10.10    90.86  shootLoop
+  0.00      0.09     0.00        1     0.00     0.00  generate
+
+ %         the percentage of the total running time of the
